@@ -3,6 +3,7 @@ Brightness, Gamma and Saturation control for OLED screens on LINUX using the FN 
 
        [FN Brightness Up  ] > OLED Light Up
        [FN Brightness Down] > OLED Light Down (software adjustment, no PWM)
+                                              (lowest level blanks the display)
        
   [Alt][FN Brightness Up  ] > OLED Gamma Up
   [Alt][FN Brightness Down] > OLED Gamma Down
@@ -12,6 +13,8 @@ Brightness, Gamma and Saturation control for OLED screens on LINUX using the FN 
 
  [Ctrl][FN Brightness Up  ] > OLED Display Temperature Up   (cooler colors)
  [Ctrl][FN Brightness Down] > OLED Display Temperature Down (warmer colors)
+ 
+                    [Fn F7] > Switch to alternative OLED setting
 
 
 Installation

@@ -1,0 +1,30 @@
+{
+    "type": "script",
+    "description": "oled_brightness_down",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 427,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [
+            "proxy"
+        ],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": "<code232>"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}

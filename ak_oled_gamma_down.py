@@ -1,0 +1,1 @@
+system.exec_command("oled_gamma_down", getOutput=False)

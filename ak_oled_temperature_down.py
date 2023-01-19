@@ -1,0 +1,1 @@
+system.exec_command("oled_temperature_down", getOutput=False)

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+saturation=10
+if [ -f /tmp/oled_saturation ]; then
+ read saturation < /tmp/oled_saturation
+fi
+
+if [[ $saturation -le 20 ]]; then
+ saturation=$((saturation+1))
+ vibrant-cli eDP-1 `echo "$saturation/10" | bc -l` > /dev/null
+fi
+
+echo $saturation > /tmp/oled_saturation
+

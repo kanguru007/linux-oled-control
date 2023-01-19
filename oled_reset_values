@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm /tmp/oled_*
+
+oled_set_all

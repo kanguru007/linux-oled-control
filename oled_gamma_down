@@ -1,0 +1,14 @@
+#!/bin/bash
+
+gamma=6
+if [ -f /tmp/oled_gamma ]; then
+ read gamma < /tmp/oled_gamma
+fi
+
+if [ $gamma -gt 0 ]; then
+ gamma=$((gamma-1))
+fi
+
+echo $gamma > /tmp/oled_gamma
+
+oled_set

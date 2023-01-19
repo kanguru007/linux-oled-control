@@ -1,0 +1,14 @@
+#!/bin/bash
+
+temperature=6500
+if [ -f /tmp/oled_temperature ]; then
+ read temperature < /tmp/oled_temperature
+fi
+
+if [ $temperature -lt 10000 ]; then
+ temperature=$((temperature+(temperature/20)))
+fi
+
+echo $temperature > /tmp/oled_temperature
+
+oled_set

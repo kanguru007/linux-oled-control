@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p ~/.oled_control/settings/$1 > /dev/null
+
+cp /tmp/oled_* ~/.oled_control/settings/$1

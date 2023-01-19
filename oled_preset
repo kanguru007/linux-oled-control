@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d ~/.oled_control/settings/$1 ]; then
+ cp ~/.oled_control/settings/$1/oled_brightness /tmp
+ cp ~/.oled_control/settings/$1/oled_gamma /tmp
+ cp ~/.oled_control/settings/$1/oled_saturation /tmp
+ cp ~/.oled_control/settings/$1/oled_temperature /tmp
+ oled_set_all
+else
+ echo "Setting $1 not found."
+fi

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+brightness=30
+if [ -f /tmp/oled_brightness ]; then
+ read brightness < /tmp/oled_brightness
+fi
+
+if [ $brightness -gt -1 ]; then
+ brightness=$((brightness-1))
+fi
+
+echo $brightness > /tmp/oled_brightness
+
+oled_set

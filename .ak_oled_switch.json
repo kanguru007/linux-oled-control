@@ -1,0 +1,30 @@
+{
+    "type": "script",
+    "description": "oled_switch",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 0,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [
+            "proxy"
+        ],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": "<code235>"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}

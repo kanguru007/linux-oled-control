@@ -38,3 +38,5 @@ sh install.sh
 
 
 p.s. You may have to change the FN Key codes in AutoKey if they are different from the Thinkpad X1 Yoga codes
+
+p.s.2 Brightness control is done in software, not using PWM. Limited color palette at lower brighnesses but always a temporally quiet picture.
